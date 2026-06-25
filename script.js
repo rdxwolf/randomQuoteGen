@@ -38,7 +38,6 @@ speechBtn.addEventListener("click", () => {
   }
 });
 
-// --- NEW TICK ANIMATION CODE IS HERE ---
 copyBtn.addEventListener("click", () => {
   navigator.clipboard.writeText(quoteText.innerText);
   
