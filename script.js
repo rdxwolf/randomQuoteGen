@@ -1,7 +1,7 @@
 const quoteText = document.querySelector(".quote"),
   quoteBtn = document.querySelector("button"),
   authorName = document.querySelector(".name"),
-  speechBtn = document.querySelector(".sound"), // Fixed class name!
+  speechBtn = document.querySelector(".sound"),
   copyBtn = document.querySelector(".copy"),
   twitterBtn = document.querySelector(".twitter"),
   synth = speechSynthesis;
@@ -58,4 +58,4 @@ twitterBtn.addEventListener("click", () => {
   window.open(tweetUrl, "_blank");
 });
 
-quoteBtn.addEventListener("click", randomQuote);
+quoteBtn.addEventListener("click", randomQuote);ogl
